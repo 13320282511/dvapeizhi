@@ -47,7 +47,7 @@ export default {
     },
   },
   extraBabelPlugins: [
-    "transform-runtime", ["import", { "libraryName": "antd-mobile", "style": "css" }]
+    "transform-runtime", ["import", { "libraryName": "antd-mobile", "style": true }]
   ],
   env: {
     development: {
