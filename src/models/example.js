@@ -25,7 +25,7 @@ export default {
       return {...state, ...action.payload};
     },
     hdianji(state, {payload}) {
-      return {...state,...payload}
+      return {...state, ...payload}
     }
   },
 
