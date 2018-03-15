@@ -13,6 +13,5 @@ npm-debug.log*
 .idea/*
 .vscode
 *.log
-.gitignore
 yarn.lock
 package-lock.json
