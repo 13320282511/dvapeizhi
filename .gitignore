@@ -9,3 +9,10 @@
 # misc
 .DS_Store
 npm-debug.log*
+.idea
+.idea/*
+.vscode
+*.log
+.gitignore
+yarn.lock
+package-lock.json
