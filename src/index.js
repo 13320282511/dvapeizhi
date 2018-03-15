@@ -33,7 +33,8 @@ const app = dva({
 
 // 3. Model
 //按照目前的配置，所有后面的default都要去掉，不然报错,写的注释掉的居然也会被运行检测到，郁闷
-
+//这里可以给全局绑定一个属性，最开始就有此属性，可以用来判断用户是否登录之类的
+app.model(require('./models/app'))
 
 // 4. Router
 app.router(require('./router'));
